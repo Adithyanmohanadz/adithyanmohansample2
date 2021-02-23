@@ -32,7 +32,11 @@
      
      font-size: 50px;
      font-weight: bold
-}   
+}
+.aboutbody{
+    background: linear-gradient(to right, #d4d4d4 28%, #fff5ec 80%);
+}
+  
 .about-text{
     font-size: 37px;
     font-family: cursive;
@@ -41,3 +45,9 @@
 .qualification{
     font-size: 25px;
 }
+.Educationbody {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)), url(img/edu.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed; }
