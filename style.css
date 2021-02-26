@@ -51,3 +51,39 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed; }
+
+   .progress {
+        height: 50px;
+        display: block;
+        background: none;}
+
+     .skill {
+        padding: 10px 0;
+        margin: 0 0 6px 0;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: #050d18;
+      }
+
+      .progress-bar {
+        width: 1px;
+        height: 8px;
+        transition: .9s;
+        border-radius: 4rem;
+        background-color: #149ddd ;
+        width: 85%;
+        display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+      }
