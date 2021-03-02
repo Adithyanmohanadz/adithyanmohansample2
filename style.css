@@ -34,11 +34,11 @@
      font-weight: bold
 }
 .aboutbody{
-    background: linear-gradient(to right, #d4d4d4 28%, #fff5ec 80%);
+    background:linear-gradient(to right, rgba(226, 218, 207, 0.72), rgba(211, 205, 226, 0.58));
 }
   
 .about-text{
-    font-size: 37px;
+    font-size: 30px;
     font-family: cursive;
 }     
 
