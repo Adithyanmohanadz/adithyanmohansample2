@@ -52,38 +52,29 @@
     background-position: center;
     background-attachment: fixed; }
 
-   .progress {
+.progress {
         height: 50px;
         display: block;
-        background: none;}
-
-     .skill {
-        padding: 10px 0;
-        margin: 0 0 6px 0;
-        text-transform: uppercase;
-        display: block;
-        font-weight: 600;
-        font-family: "Poppins", sans-serif;
-        color: #050d18;
-      }
-
-      .progress-bar {
-        width: 1px;
-        height: 8px;
-        transition: .9s;
-        border-radius: 4rem;
-        background-color: #149ddd ;
-        width: 85%;
-        display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #007bff;
-    transition: width .6s ease;
-      }
+        background:none}
+.skillsbody{
+    
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)), url(img/skills.jpg);
+    background-size:cover ;
+    height: 700px;
+    
+}
+.progressbar{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.253));
+}
+ .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  .info {
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
