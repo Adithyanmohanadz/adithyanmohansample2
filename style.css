@@ -31,7 +31,9 @@
 .heading{
      
      font-size: 50px;
-     font-weight: bold
+     font-weight: bold;
+     text-decoration: overline;
+  text-decoration-color:steelblue;
 }
 .aboutbody{
     background:linear-gradient(to right, rgba(226, 218, 207, 0.72), rgba(211, 205, 226, 0.58));
@@ -69,12 +71,22 @@
  .php-email-form {
     width: 100%;
     padding: 30px;
-    background: #fff;
+    background: rgba(229, 229, 240, 0.948);
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   }
   .info {
     padding: 10px;
-    background: #fff;
+    background: rgba(229, 229, 240, 0.948);
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .socialmedia{
+      padding: 10px;
+      background: rgba(229, 229, 240, 0.948);
+      width: 100%;
+      box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+     
+      
+
   }
