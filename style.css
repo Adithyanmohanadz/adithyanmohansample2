@@ -9,7 +9,7 @@
     width:150px;;
 }
 .w3l-main-banner .banner-view {
-    background: url(img/banner.jpg) no-repeat right;
+    background: url(img/banner1.jpg) no-repeat right;
     background-size: cover;
     min-height: 700px;
     position: relative;
@@ -38,6 +38,7 @@
 .aboutbody{
     background:linear-gradient(to right, rgba(226, 218, 207, 0.72), rgba(211, 205, 226, 0.58));
 }
+
   
 .about-text{
     font-size: 30px;
